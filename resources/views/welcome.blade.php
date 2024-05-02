@@ -70,8 +70,8 @@
             <div class="flex items-center gap-6">
                 <a href="/login">
                     <button
-                    class="text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-medium leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">SIS
-                    Emendas</button>
+                        class="text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-medium leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">SIS
+                        Emendas</button>
                 </a>
 
                 <ion-icon onclick="onToggleMenu(this)" name="menu"
@@ -110,7 +110,8 @@
                     <h1 class="text-2xl py-1 font-bold">Aspar</h1>
                 </div>
                 <div class="py-2">
-                    <p class="text-lg text-center py-1 font-normal text-gray-600">Somos uma empresa dedicada ao desenvolvimento de
+                    <p class="text-lg text-center py-1 font-normal text-gray-600">Somos uma empresa dedicada ao
+                        desenvolvimento de
                         projetos que visam ajudar
                         as pessoas e promover uma web mais inclusiva.</p>
                 </div>
@@ -123,15 +124,15 @@
         <div class="mt-2 px-8">
             <div class="flex justify-center items-center">
                 <div class="tab-section p-5 rounded-lg backdrop-filter backdrop-blur-lg w-[1200px] min-h-[400px]">
-                    <div class="flex flex-wrap gap-1 bg-gray-200 rounded">
+                    <div class="flex flex-wrap gap-1 rounded">
                         <button
-                            class="inline-flex justify-center text-xl p-4 font-bold hover:bg-gray-200 flex-grow w-80 border-b-2 hover:border-lime-600 font-medium leading-5 transition duration-300 ease-in-out"
+                            class="inline-flex justify-center text-xl p-4 font-bold flex-grow w-80 border-b-2 hover:border-lime-600 font-medium leading-5 transition duration-300 ease-in-out bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl"
                             data-tab-target="#tab1">História</button>
                         <button
-                            class="inline-flex justify-center text-xl p-4 font-bold hover:bg-gray-200 flex-grow w-80 border-b-2 hover:border-lime-600 font-medium leading-5 transition duration-300 ease-in-out"
+                            class="inline-flex justify-center text-xl p-4 font-bold flex-grow w-80 border-b-2 hover:border-lime-600 font-medium leading-5 transition duration-300 ease-in-out bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl"
                             data-tab-target="#tab2">Missão</button>
                         <button
-                            class="inline-flex justify-center text-xl p-4 font-bold hover:bg-gray-200 flex-grow w-80 border-b-2 hover:border-lime-600 font-medium leading-5 transition duration-300 ease-in-out"
+                            class="inline-flex justify-center text-xl p-4 font-bold flex-grow w-80 border-b-2 hover:border-lime-600 font-medium leading-5 transition duration-300 ease-in-out bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl"
                             data-tab-target="#tab3">Valores</button>
                     </div>
                     <div class="mt-4">
@@ -200,11 +201,11 @@
         </div>
     </section>
 
-    <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-black">
+
 
 
     <!-- Serviços -->
-    <section>
+    <section class="border-t-2 mt-4">
         <div class="mt-8 px-8">
             <div class="flex flex-col justify-center items-center">
                 <div>
@@ -223,29 +224,32 @@
         </div>
     </section>
     <!-- Card Serviços -->
-    <section>
+    <section class="p-2">
         <div class="mt-2 px-8">
             <div class="flex flex-col sm:flex-row justify-center items-center">
 
                 <div
-                    class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-64">
-                    <img src="img/icon-01.svg" class="bg-lime-600 py-2 px-2 rounded">
+                    class="max-w-sm p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-64">
+                    <img src="img/icon-01.svg" class="bg-lime-600 py-2 px-2 rounded" alt="Experiência"
+                        title="Experiência">
                     <h5 class="mb-2 mt-2 text-2xl py-1 font-bold">Experiência</h5>
                     <p class="text-lg py-1 font-normal text-gray-600">Sabemos dos desafios enfrentados e conhecemos os
                         caminhos para alcançar os melhores resultados.</p>
                 </div>
 
                 <div
-                    class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-64">
-                    <img src="img/icon-02.svg" class="bg-lime-600 py-2 px-2 rounded">
+                    class="max-w-sm p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-64">
+                    <img src="img/icon-02.svg" class="bg-lime-600 py-2 px-2 rounded" alt="Inovação"
+                        title="Inovação">
                     <h5 class="mb-2 mt-2 text-2xl py-1 font-bold">Inovação</h5>
                     <p class="text-lg py-1 font-normal text-gray-600">A Aspar traz inovação e soluções completas para
                         eliminar gargalos.</p>
                 </div>
 
                 <div
-                    class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-64">
-                    <img src="img/icon-03.svg" class="bg-lime-600 py-2 px-2 rounded">
+                    class="max-w-sm p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-64">
+                    <img src="img/icon-03.svg" class="bg-lime-600 py-2 px-2 rounded" alt="Acessibilidade"
+                        title="Acessibilidade">
                     <h5 class="mb-2 mt-2 text-2xl py-1 font-bold">Acessibilidade</h5>
                     <p class="text-lg py-1 font-normal text-gray-600">A Aspar pode ajudar sua organização a eliminar as
                         barreiras no mundo digital. Com construção de sites e aplicativos acessíveis, e consultoria de
@@ -254,6 +258,129 @@
             </div>
         </div>
     </section>
+
+    <!-- Cases -->
+    <section class="border-t-2 mt-4">
+        <div class="mt-8 px-8">
+            <div class="flex flex-col justify-center items-center">
+                <div>
+                    <h2
+                        class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-lime-600 rounded-lg">
+                        Cases</h2>
+                </div>
+                <div class="py-2">
+                    <h1 class="text-2xl py-1 font-bold">Trabalhos realizados</h1>
+                </div>
+                <div class="py-2">
+                    <p class="text-lg py-1 font-normal text-gray-600">Entregando soluções.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row">
+                    <div
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        <a href="/login"><img src="img/logo-sisemendas1.png" class="w-40"
+                                title="SIS Emendas"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologias -->
+    <section class="border-t-2 mt-4">
+        <div class="mt-8 px-8">
+            <div class="flex flex-col justify-center items-center">
+                <div>
+                    <h2
+                        class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-lime-600 rounded-lg">
+                        Tecnologias</h2>
+                </div>
+                <div class="py-2">
+                    <h1 class="text-2xl py-1 font-bold">Principais tecnologias utilizadas na Aspar.</h1>
+                </div>
+                <div class="py-2">
+                    <p class="text-lg py-1 font-normal text-gray-600">Empregamos tecnologia para resolver desafios,
+                        visando auxiliar as pessoas e promover uma internet mais acessível e inclusiva.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row">
+                    <div
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        <img class="w-24" src="/img/javascript.png" alt="JavaScript" title="JavaScript">
+                    </div>
+                    <div
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        <img class="w-24" src="/img/php.png" alt="PHP" title="PHP">
+                    </div>
+                    <div
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        <img class="w-24" src="/img/postgres.png" alt="Postgres" title="Postgres">
+                    </div>
+                    <div
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        <img class="w-24" src="/img/react.png" alt="React" title="React">
+                    </div>
+                    <div
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        <img class="w-24" src="/img/vue.png" alt="Vue" title="Vue">
+                    </div>
+                    <div
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        <img class="w-24" src="/img/typescript.png" alt="TypeScript" title="TypeScript">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+        <div class="w-full bg-gradient-to-tl from-gray-900 via-black to-sky-950 to-95% text-gray-50">
+            <div class="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
+                <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2 justify-start">
+                    <div class="w-full sm:w-2/5 pr-6 flex flex-col space-y-4">
+                        <div>
+                            <a href="/">
+                                <img class="cursor-pointer hidden sm:block" src="/img/logo-aspar-branca.png"
+                                    alt="Logo Sis Emendas">
+                            </a>
+                            <p class="opacity-60">Concord Royal Court (3rd floor) Dhanmondi, Dhaka 1209, Bangladesh.</p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-1/5 flex flex-col space-y-4">
+                        <a href="" class="opacity-60">Sobre nós</a>
+                        <a href="" class="opacity-60">Empresa</a>
+                        <a href="" class="opacity-60">Serviços</a>
+                        <a href="/contatos" class="opacity-60">Contatos</a>
+                    </div>
+                    <div class="w-full sm:w-1/5 flex flex-col space-y-4">
+                        <a class="opacity-60">Disclaimer</a>
+                        <a class="opacity-60">Testimonials</a>
+                        <a class="opacity-60">Privacy Policy</a>
+                        <a class="opacity-60">Terms of Service</a>
+                    </div>
+                    <div class="w-full sm:w-1/5 pt-6 flex items-end mb-1">
+                        <div class="flex flex-row space-x-4">
+                            <a href="https://www.instagram.com/asparassessoria/" target="_blank">
+                                <ion-icon name="logo-instagram" class="w-6 h-6"></ion-icon>
+                            </a>
+                            <a href="https://api.whatsapp.com/send/?phone=%2B5561983184699&text&type=phone_number&app_absent=0" target="_blank">
+                                <ion-icon name="logo-whatsapp" class="w-6 h-6"></ion-icon>
+                            </a>
+                            <a href="https://github.com/Aspar-Assessoria-e-Tecnologia" target="_blank">
+                                <ion-icon name="logo-github" class="w-6 h-6"></ion-icon>
+                            </a>
+                            <a href="/" target="_blank">
+                                <ion-icon name="logo-linkedin" class="w-6 h-6"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="opacity-60 pt-2">
+                    <p>&copy; Aspar 2024. Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script>
         const tabs = document.querySelectorAll('[data-tab-target]');
         const activeClass = 'border-lime-600';
