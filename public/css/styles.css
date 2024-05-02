@@ -13,3 +13,15 @@ footer {
 footer a {
     margin-bottom: 0;
 }
+
+.whats {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    z-index: 9999;
+}
+
+.whats:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}

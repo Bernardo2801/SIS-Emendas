@@ -22,6 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body class="h-screen">
@@ -29,7 +32,7 @@
     <!-- NAVBAR -->
     <header class="bg-white px-8">
         <nav class="flex justify-between items-center mx-auto mx-8 py-4">
-            <div>
+            <div data-aos="fade-right">
                 <a href="/">
                     <img class="cursor-pointer hidden sm:block" src="/img/logo-aspar.png" alt="Logo Sis Emendas">
                 </a>
@@ -37,40 +40,41 @@
             <div
                 class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
-                    <li
-                        class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
-                        <a href="#">Início</a>
+                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                        data-aos="fade-right">
+                        <a href="#inicio">Início</a>
                     </li>
-                    <li
-                        class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
-                        <a href="#">Empresa</a>
+                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                        data-aos="fade-right">
+                        <a href="#empresa">Empresa</a>
                     </li>
-                    <li
-                        class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
-                        <a href="#">Serviços</a>
+                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                        data-aos="fade-right">
+                        <a href="#servicos">Serviços</a>
                     </li>
-                    <li
-                        class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
-                        <a href="#">Cases</a>
+                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                        data-aos="fade-right">
+                        <a href="#cases">Cases</a>
                     </li>
-                    <li
-                        class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
-                        <a href="#">Tecnologias</a>
+                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                        data-aos="fade-right">
+                        <a href="#tecnologias">Tecnologias</a>
                     </li>
-                    <li
-                        class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
-                        <a href="#">Contato</a>
+                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                        data-aos="fade-right">
+                        <a href="/contato">Contato</a>
                     </li>
-                    <li
-                        class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
-                        <a href="#">Acessibilidades</a>
+                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                        data-aos="fade-right">
+                        <a href="/acessibilidade">Acessibilidades</a>
                     </li>
                 </ul>
             </div>
             <div class="flex items-center gap-6">
                 <a href="/login">
                     <button
-                        class="text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-medium leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">SIS
+                        class="text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-medium leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                        data-aos="fade-right">SIS
                         Emendas</button>
                 </a>
 
@@ -80,7 +84,7 @@
     </header>
 
     <!-- INÍCIO -->
-    <section>
+    <section class="border-t-2 mt-4" data-aos="fade-down" id="inicio">
         <div class="mt-8 px-8 sm:px-60 grid grid-cols-1 xl:grid-cols-2 gap-6 py-4">
             <div class="w-full rounded-xl flex flex-col justify-center">
                 <h1 class="text-lg py-1 font-semibold">Aspar - Assessoria & Tecnologia</h1>
@@ -89,16 +93,15 @@
                     anos no desenvolvimento e integração de sistemas e aplicações, fornecendo consultoria e soluções de
                     acessibilidade web.</p>
             </div>
-            <div class="w-full py-4 hidden sm:block">
+            <div
+                class="w-full py-4 hidden sm:block transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <img class="rounded-xl" src="/img/aspar-foto2.png" alt="Logo Sis Emendas">
             </div>
         </div>
     </section>
 
-    <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-black">
-
     <!-- Empresa -->
-    <section>
+    <section class="border-t-2 mt-4" data-aos="fade-down" id="empresa">
         <div class="mt-8 px-8 sm:px-60">
             <div class="flex flex-col justify-center items-center">
                 <div>
@@ -120,7 +123,7 @@
     </section>
 
     <!-- HMV -->
-    <section>
+    <section data-aos="fade-down">
         <div class="mt-2 px-8">
             <div class="flex justify-center items-center">
                 <div class="tab-section p-5 rounded-lg backdrop-filter backdrop-blur-lg w-[1200px] min-h-[400px]">
@@ -205,7 +208,7 @@
 
 
     <!-- Serviços -->
-    <section class="border-t-2 mt-4">
+    <section class="border-t-2 mt-4" data-aos="fade-down" id="servicos">
         <div class="mt-8 px-8">
             <div class="flex flex-col justify-center items-center">
                 <div>
@@ -224,12 +227,12 @@
         </div>
     </section>
     <!-- Card Serviços -->
-    <section class="p-2">
+    <section class="p-2" data-aos="fade-down">
         <div class="mt-2 px-8">
             <div class="flex flex-col sm:flex-row justify-center items-center">
 
                 <div
-                    class="max-w-sm p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-64">
+                    class="max-w-sm h-50 md:h-72 sm:h-96 p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2">
                     <img src="img/icon-01.svg" class="bg-lime-600 py-2 px-2 rounded" alt="Experiência"
                         title="Experiência">
                     <h5 class="mb-2 mt-2 text-2xl py-1 font-bold">Experiência</h5>
@@ -238,7 +241,7 @@
                 </div>
 
                 <div
-                    class="max-w-sm p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-64">
+                    class="max-w-sm h-50 md:h-72 sm:h-96 p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2">
                     <img src="img/icon-02.svg" class="bg-lime-600 py-2 px-2 rounded" alt="Inovação"
                         title="Inovação">
                     <h5 class="mb-2 mt-2 text-2xl py-1 font-bold">Inovação</h5>
@@ -247,20 +250,19 @@
                 </div>
 
                 <div
-                    class="max-w-sm p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-64">
+                    class="max-w-sm h-50 md:h-72 sm:h-96 p-6 bg-gray-200 hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2">
                     <img src="img/icon-03.svg" class="bg-lime-600 py-2 px-2 rounded" alt="Acessibilidade"
                         title="Acessibilidade">
                     <h5 class="mb-2 mt-2 text-2xl py-1 font-bold">Acessibilidade</h5>
                     <p class="text-lg py-1 font-normal text-gray-600">A Aspar pode ajudar sua organização a eliminar as
-                        barreiras no mundo digital. Com construção de sites e aplicativos acessíveis, e consultoria de
-                        acessibilidade.</p>
+                        barreiras no mundo digital.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Cases -->
-    <section class="border-t-2 mt-4">
+    <section class="border-t-2 mt-4" data-aos="fade-down" id="cases">
         <div class="mt-8 px-8">
             <div class="flex flex-col justify-center items-center">
                 <div>
@@ -276,7 +278,7 @@
                 </div>
                 <div class="flex flex-col sm:flex-row">
                     <div
-                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 h-full sm:h-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <a href="/login"><img src="img/logo-sisemendas1.png" class="w-40"
                                 title="SIS Emendas"></a>
                     </div>
@@ -286,7 +288,7 @@
     </section>
 
     <!-- Tecnologias -->
-    <section class="border-t-2 mt-4">
+    <section class="border-t-2 mt-4" data-aos="fade-down" id="tecnologias">
         <div class="mt-8 px-8">
             <div class="flex flex-col justify-center items-center">
                 <div>
@@ -303,27 +305,27 @@
                 </div>
                 <div class="flex flex-col sm:flex-row">
                     <div
-                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <img class="w-24" src="/img/javascript.png" alt="JavaScript" title="JavaScript">
                     </div>
                     <div
-                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <img class="w-24" src="/img/php.png" alt="PHP" title="PHP">
                     </div>
                     <div
-                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <img class="w-24" src="/img/postgres.png" alt="Postgres" title="Postgres">
                     </div>
                     <div
-                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <img class="w-24" src="/img/react.png" alt="React" title="React">
                     </div>
                     <div
-                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <img class="w-24" src="/img/vue.png" alt="Vue" title="Vue">
                     </div>
                     <div
-                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max">
+                        class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <img class="w-24" src="/img/typescript.png" alt="TypeScript" title="TypeScript">
                     </div>
                 </div>
@@ -331,44 +333,59 @@
         </div>
     </section>
 
+
     <!-- Footer -->
-    <section>
+    <section data-aos="fade-up">
         <div class="w-full bg-gradient-to-tl from-gray-900 via-black to-sky-950 to-95% text-gray-50">
             <div class="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
                 <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2 justify-start">
                     <div class="w-full sm:w-2/5 pr-6 flex flex-col space-y-4">
                         <div>
                             <a href="/">
-                                <img class="cursor-pointer hidden sm:block" src="/img/logo-aspar-branca.png"
-                                    alt="Logo Sis Emendas">
+                                <img class="cursor-pointer" src="/img/logo-aspar-branca.png" alt="Logo Sis Emendas">
                             </a>
-                            <p class="opacity-60">Concord Royal Court (3rd floor) Dhanmondi, Dhaka 1209, Bangladesh.</p>
+                            <p class="text-white opacity-60 italic font-semibold">Soluções inovadoras para o seu
+                                sucesso.</p>
                         </div>
                     </div>
                     <div class="w-full sm:w-1/5 flex flex-col space-y-4">
-                        <a href="" class="opacity-60">Sobre nós</a>
-                        <a href="" class="opacity-60">Empresa</a>
-                        <a href="" class="opacity-60">Serviços</a>
-                        <a href="/contatos" class="opacity-60">Contatos</a>
+                        <a href="#inicio"
+                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Início</a>
+                        <a href="#empresa"
+                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Empresa</a>
+                        <a href="#servicos"
+                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Serviços</a>
+                        <a href="#cases"
+                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Cases</a>
                     </div>
                     <div class="w-full sm:w-1/5 flex flex-col space-y-4">
-                        <a class="opacity-60">Disclaimer</a>
-                        <a class="opacity-60">Testimonials</a>
-                        <a class="opacity-60">Privacy Policy</a>
-                        <a class="opacity-60">Terms of Service</a>
+                        <a href="#tecnologia"
+                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Tecnologia</a>
+                        <a href="/contatos"
+                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Contatos</a>
+                        <a href="/acessibilidade"
+                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Acessibilidade</a>
+                        <a href="/login"
+                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">SIS
+                            Emendas</a>
                     </div>
                     <div class="w-full sm:w-1/5 pt-6 flex items-end mb-1">
                         <div class="flex flex-row space-x-4">
-                            <a href="https://www.instagram.com/asparassessoria/" target="_blank">
+                            <a href="https://www.instagram.com/asparassessoria/" target="_blank"
+                                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                                 <ion-icon name="logo-instagram" class="w-6 h-6"></ion-icon>
                             </a>
-                            <a href="https://api.whatsapp.com/send/?phone=%2B5561983184699&text&type=phone_number&app_absent=0" target="_blank">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B5561983184699&text&type=phone_number&app_absent=0"
+                                target="_blank"
+                                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                                 <ion-icon name="logo-whatsapp" class="w-6 h-6"></ion-icon>
                             </a>
-                            <a href="https://github.com/Aspar-Assessoria-e-Tecnologia" target="_blank">
+                            <a href="https://github.com/Aspar-Assessoria-e-Tecnologia" target="_blank"
+                                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                                 <ion-icon name="logo-github" class="w-6 h-6"></ion-icon>
                             </a>
-                            <a href="/" target="_blank">
+                            <a href="/" target="_blank"
+                                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                                 <ion-icon name="logo-linkedin" class="w-6 h-6"></ion-icon>
                             </a>
                         </div>
@@ -380,6 +397,13 @@
             </div>
         </div>
     </section>
+
+    <div class="whats" data-aos="fade-up">
+        <a href="https://wa.me/+556183466330" target="_blank">
+            <img src="/img/whatsapp.png" width="70px" alt="Fale conosco pelo WhatsApp"
+                title="Fale conosco pelo WhatsApp">
+        </a>
+    </div>
 
     <script>
         const tabs = document.querySelectorAll('[data-tab-target]');
@@ -416,6 +440,13 @@
             e.name = e.name === 'menu' ? 'close' : 'menu'
             navLinks.classList.toggle('top-[9%]')
         }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
     </script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
