@@ -4,14 +4,10 @@ body {
     position: relative;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
+#footer {
+    position: relative;
+    bottom: 0px;
     width: 100%;
-}
-
-footer a {
-    margin-bottom: 0;
 }
 
 .whats {

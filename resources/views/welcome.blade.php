@@ -335,7 +335,7 @@
 
 
     <!-- Footer -->
-    <section data-aos="fade-up">
+    <section data-aos="fade-up" id="footer">
         <div class="w-full bg-gradient-to-tl from-gray-900 via-black to-sky-950 to-95% text-gray-50">
             <div class="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
                 <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2 justify-start">

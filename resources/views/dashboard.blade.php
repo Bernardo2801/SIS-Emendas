@@ -1,15 +1,9 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
+@extends('layouts.main')
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <x-welcome />
-            </div>
-        </div>
-    </div>
-</x-app-layout>
+@section('title', 'Home SisEmendas')
+
+@section('content')
+
+<p class="p-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, maxime! Distinctio dignissimos, aut maxime, animi ipsa excepturi fugit fugiat, cum aperiam quisquam culpa! Nihil veritatis iusto obcaecati culpa? Consectetur ullam veritatis maxime dolore tempore nesciunt dolor blanditiis repellat dolorem. Amet, atque! Quos exercitationem tenetur a ab doloribus accusantium alias consequatur quibusdam, voluptates maiores reprehenderit nihil hic commodi non blanditiis enim quidem molestias debitis laborum animi ipsa, optio explicabo, pariatur expedita. Aliquam laborum similique consectetur nam iure quis molestiae aut error corrupti? In blanditiis voluptatibus voluptas. Voluptates, ab. Natus, impedit minima, libero minus distinctio accusamus maiores amet dolores ab, mollitia voluptatem. Consequatur unde inventore nam minima vitae suscipit delectus impedit, deserunt similique voluptatibus. Iure harum ratione neque quaerat ipsam necessitatibus delectus animi voluptatum iste nam explicabo architecto, vel incidunt facere, nisi quasi natus dolorum. Debitis veniam perferendis blanditiis enim sint dolorum, earum fuga ea pariatur cumque? Iusto enim accusamus, assumenda, earum sed quae ratione similique amet cum voluptatibus odio inventore voluptas eaque cupiditate, cumque obcaecati accusantium! Impedit, dolore dolorem quibusdam sequi assumenda aperiam? Autem, officiis fugit maxime eius recusandae temporibus eveniet ipsa illum expedita? Minima et quos maiores quia eligendi corrupti corporis, asperiores velit quisquam voluptas iste distinctio dolores. Quod neque, voluptate in porro veritatis error perspiciatis quae vel eum ut ea, eius voluptas tempora recusandae facere ex vero eos reiciendis. Expedita, ipsa veniam necessitatibus, dignissimos sit sapiente fugiat quam, pariatur libero molestias eveniet! Doloribus atque vel earum repellat, ad aspernatur consequatur minima alias sequi autem aperiam ut. Quibusdam eligendi vel quo fuga ab, dicta tempora ex ducimus officiis explicabo, voluptatem ullam autem quae praesentium corrupti modi dignissimos odit? Dolor, animi illum aliquam labore, officiis consequuntur voluptates vitae tempore, nemo in odit excepturi cum suscipit velit? Impedit quis in tempora iure enim voluptates cumque facilis, esse tempore veniam voluptatem beatae necessitatibus.</p>
+
+@endsection
