@@ -34,7 +34,7 @@
                 </a>
             </div>
             <div
-                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+                class="menu nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
                         data-aos="fade-right">
@@ -395,7 +395,7 @@
     </section>
 
     <div class="whats" data-aos="fade-up">
-        <a href="https://wa.me/+556183466330" target="_blank">
+        <a href="https://wa.me/+5561983184699" target="_blank">
             <img src="/img/whatsapp.png" width="70px" alt="Fale conosco pelo WhatsApp"
                 title="Fale conosco pelo WhatsApp">
         </a>
