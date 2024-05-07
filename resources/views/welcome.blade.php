@@ -26,7 +26,7 @@
 <body class="h-screen">
 
     <!-- NAVBAR -->
-    <header class="bg-white px-8">
+    <header class="bg-white px-8 bg-white border-b border-gray-100">
         <nav class="flex justify-between items-center mx-auto mx-8 py-4">
             <div data-aos="fade-right">
                 <a href="/">
@@ -80,7 +80,7 @@
     </header>
 
     <!-- INÍCIO -->
-    <section class="border-t-2 mt-4" data-aos="fade-down" id="inicio">
+    <section class="mt-4" data-aos="fade-down" id="inicio">
         <div class="mt-8 px-8 sm:px-60 grid grid-cols-1 xl:grid-cols-2 gap-6 py-4">
             <div class="w-full rounded-xl flex flex-col justify-center">
                 <h1 class="text-lg py-1 font-semibold">Aspar - Assessoria & Tecnologia</h1>
@@ -458,5 +458,4 @@
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 </body>
-
 </html>

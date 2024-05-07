@@ -1,90 +1,14 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+<nav x-data="{ open: false }" class="bg-white px-8 bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
+        <div class="flex justify-between items-center mx-auto mx-8 py-4">
             <div class="flex">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
-                        <x-application-mark class="block h-9 w-auto" />
+                <div class="shrink-0 flex items-center fade-right">
+                    <a href="/dashboard">
+                        <img class="cursor-pointer hidden sm:block" src="/img/logo-sisemendas.png" alt="Logo Sis Emendas">
                     </a>
                 </div>
-
-                <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <ul class="flex items-center justify-center font-semibold">
-                        <li class="relative group px-3 py-2">
-                            <button class="hover:opacity-50 cursor-default inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none transition duration-150 ease-in-out">Emendas</button>
-                            <div
-                                class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[200px] transform">
-                                <div class="relative top-6 p-6 bg-lime-700 rounded-xl shadow-xl w-full">
-                                    <div
-                                        class="w-10 h-10 bg-lime-700 transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm">
-                                    </div>
-                                    <div class="relative z-10">
-                                        <ul class="text-[15px]">
-                                            <li class="mb-1">
-                                                <a href="#"
-                                                    class="text-gray-50 py-1 block font-light hover:text-gray-200 transition ease-in-out duration-150">
-                                                    Indicações gerais
-                                                </a>
-                                            </li>
-                                            <li class="mb-1">
-                                                <a href="#"
-                                                    class="text-gray-50 hover:text-gray-300 py-1 block font-light">
-                                                    Consulta por Cidade/Beneficiário
-                                                </a>
-                                            </li>
-                                            <li class="mb-1">
-                                                <a href="#"
-                                                    class="text-gray-50 hover:text-gray-300 py-1 block font-light">
-                                                    Consulta por Ministério/Temática
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#"
-                                                    class="text-gray-50 hover:text-gray-300 py-1 block font-light">
-                                                    Consulta Ficha Processo
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="relative group px-3 py-2">
-                            <a href="#" class="hover:opacity-50 cursor-default inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none transition duration-150 ease-in-out">Ficha por região</a>
-                        </li>
-                        <li class="relative group px-3 py-2">
-                            <button class="hover:opacity-50 cursor-default inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none transition duration-150 ease-in-out">Votação</button>
-                            <div
-                                class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[200px] transform">
-                                <div class="relative top-6 p-6 bg-lime-700 rounded-xl shadow-xl w-full">
-                                    <div
-                                        class="w-10 h-10 bg-lime-700 transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm">
-                                    </div>
-                                    <div class="relative z-10">
-                                        <ul class="text-[15px]">
-                                            <li class="mb-1">
-                                                <a href="#"
-                                                    class="text-gray-50 py-1 block font-light hover:text-gray-200 transition ease-in-out duration-150">
-                                                    Votação Deputado
-                                                </a>
-                                            </li>
-                                            <li class="mb-1">
-                                                <a href="#"
-                                                    class="text-gray-50 hover:text-gray-300 py-1 block font-light">
-                                                    Votação Vereador/Prefeito
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ms-6">
@@ -183,7 +107,7 @@
                                 @csrf
 
                                 <x-dropdown-link href="{{ route('logout') }}"
-                                         @click.prevent="$root.submit();">
+                                        @click.prevent="$root.submit();">
                                     {{ __('Log Out') }}
                                 </x-dropdown-link>
                             </form>
@@ -207,15 +131,6 @@
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
-            <x-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                {{ __('Dashboard') }}
-            </x-responsive-nav-link>
-            <x-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                {{ __('Dashboard') }}
-            </x-responsive-nav-link>
-            <x-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                {{ __('Dashboard') }}
-            </x-responsive-nav-link>
             <x-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
