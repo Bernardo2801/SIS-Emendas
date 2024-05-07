@@ -38,7 +38,7 @@
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li class="hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
                         data-aos="fade-right">
-                        <a href="#inicio">Início</a>
+                        <a href="/dashboard">Início</a>
                     </li>
                     <li class="rounded-lg">
                         <a href="#" class="">
@@ -103,6 +103,7 @@
                 <ion-icon onclick="onToggleMenu(this)" name="menu"
                     class="text-3xl cursor-pointer md:hidden"></ion-icon>
             </div>
+        </nav>
     </header>
 
 

@@ -2,9 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Rota Pagina inicial do sistema (apresentação), não precisa estar autenticado.
+// Landing page ASPAR, não precisa estar autenticado.
 Route::get('/', function () {
     return view('welcome');
+});
+
+// Rota Pagina Contato, não precisa estar autenticado.
+Route::get('/contatos', function () {
+    return view('pages.contact');
 });
 
 // Rotas que estiverem dentro do Middleware, estarão protegidas pela camada de login.
