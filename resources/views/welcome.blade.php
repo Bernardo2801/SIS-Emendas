@@ -23,13 +23,13 @@
 
 </head>
 
-<body class="h-screen">
+<body class="h-screen relative">
 
     <!-- NAVBAR -->
     <header class="bg-white px-8 bg-white border-b border-gray-100">
         <nav class="flex justify-between items-center mx-auto mx-8 py-4">
             <div data-aos="fade-right">
-                <a href="/">
+                <a href="{{ route('welcome') }}">
                     <img class="cursor-pointer hidden sm:block" src="/img/logo-aspar.png" alt="Logo Sis Emendas">
                 </a>
             </div>
@@ -38,31 +38,15 @@
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
                         data-aos="fade-right">
-                        <a href="#inicio">Início</a>
+                        <a href="{{ route('welcome') }}">Início</a>
                     </li>
                     <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
                         data-aos="fade-right">
-                        <a href="#empresa">Empresa</a>
+                        <a href="{{ route('contact') }}">Contato</a>
                     </li>
                     <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
                         data-aos="fade-right">
-                        <a href="#servicos">Serviços</a>
-                    </li>
-                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
-                        data-aos="fade-right">
-                        <a href="#cases">Cases</a>
-                    </li>
-                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
-                        data-aos="fade-right">
-                        <a href="#tecnologias">Tecnologias</a>
-                    </li>
-                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
-                        data-aos="fade-right">
-                        <a href="/contatos">Contato</a>
-                    </li>
-                    <li class="hover:text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
-                        data-aos="fade-right">
-                        <a href="/acessibilidade">Acessibilidades</a>
+                        <a href="{{ route('accessibility') }}">Acessibilidade</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +66,7 @@
 
     <!-- INÍCIO -->
     <section class="mt-4" data-aos="fade-down" id="inicio">
-        <div class="mt-8 px-8 sm:px-60 grid grid-cols-1 xl:grid-cols-2 gap-6 py-4">
+        <div class="mt-8 px-8 sm:px-24 grid grid-cols-1 xl:grid-cols-2 gap-6 py-4">
             <div class="w-full rounded-xl flex flex-col justify-center">
                 <h1 class="text-lg py-1 font-semibold">Aspar - Assessoria & Tecnologia</h1>
                 <h2 class="text-2xl py-1 font-bold">Consultoria e Desenvolvimento</h2>
@@ -99,7 +83,7 @@
 
     <!-- Empresa -->
     <section class="border-t-2 mt-4" data-aos="fade-down" id="empresa">
-        <div class="mt-8 px-8 sm:px-60">
+        <div class="mt-8 px-8 sm:px-24">
             <div class="flex flex-col justify-center items-center">
                 <div>
                     <h2
@@ -325,71 +309,6 @@
                         class="max-w-sm p-6 bg-white hover:bg-gray-50 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 h-full sm:h-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <img class="w-24" src="/img/typescript.png" alt="TypeScript" title="TypeScript">
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Footer -->
-    <section id="footer">
-        <div class="w-full bg-gradient-to-tl from-gray-900 via-black to-sky-950 to-95% text-gray-50">
-            <div class="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
-                <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2 justify-start">
-                    <div class="w-full sm:w-2/5 pr-6 flex flex-col space-y-4">
-                        <div>
-                            <a href="/">
-                                <img class="cursor-pointer" src="/img/logo-aspar-branca.png" alt="Logo Sis Emendas">
-                            </a>
-                            <p class="text-white opacity-60 italic font-semibold">Soluções inovadoras para o seu
-                                sucesso.</p>
-                        </div>
-                    </div>
-                    <div class="w-full sm:w-1/5 flex flex-col space-y-4">
-                        <a href="#inicio"
-                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Início</a>
-                        <a href="#empresa"
-                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Empresa</a>
-                        <a href="#servicos"
-                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Serviços</a>
-                        <a href="#cases"
-                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Cases</a>
-                    </div>
-                    <div class="w-full sm:w-1/5 flex flex-col space-y-4">
-                        <a href="#tecnologia"
-                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Tecnologia</a>
-                        <a href="/contatos"
-                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Contatos</a>
-                        <a href="/acessibilidade"
-                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">Acessibilidade</a>
-                        <a href="/login"
-                            class="opacity-60 hover:text-lime-500 inline-flex transition duration-300 ease-in-out">SIS
-                            Emendas</a>
-                    </div>
-                    <div class="w-full sm:w-1/5 pt-6 flex items-end mb-1">
-                        <div class="flex flex-row space-x-4">
-                            <a href="https://www.instagram.com/asparassessoria/" target="_blank"
-                                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                                <ion-icon name="logo-instagram" class="w-6 h-6"></ion-icon>
-                            </a>
-                            <a href="https://api.whatsapp.com/send/?phone=%2B5561983184699&text&type=phone_number&app_absent=0"
-                                target="_blank"
-                                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                                <ion-icon name="logo-whatsapp" class="w-6 h-6"></ion-icon>
-                            </a>
-                            <a href="https://github.com/Aspar-Assessoria-e-Tecnologia" target="_blank"
-                                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                                <ion-icon name="logo-github" class="w-6 h-6"></ion-icon>
-                            </a>
-                            <a href="/" target="_blank"
-                                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                                <ion-icon name="logo-linkedin" class="w-6 h-6"></ion-icon>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="opacity-60 pt-2">
-                    <p>&copy; Aspar 2024. Todos os direitos reservados</p>
                 </div>
             </div>
         </div>
