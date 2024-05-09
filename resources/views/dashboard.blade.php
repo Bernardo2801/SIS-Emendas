@@ -9,17 +9,10 @@
     <section class="mt-4" data-aos="fade-down">
         <div class="mt-8 px-8 sm:px-24 md:px-60 lg:px-60 xl:px-60 2xl:px-60 grid grid-cols-1 xl:grid-cols-2">
             <div class="w-full rounded-xl flex flex-col items-left justify-center">
-                <h1 class="text-2xl py-1 font-bold">Fale consco</h1>
-                <h2 class="text-lg py-1 font-semibold">Email</h2>
-                <a href="mailto:atendimento@aspar.com.br">atendimento@aspar.com.br</a>
-                <h2 class="text-lg py-1 font-semibold">WhatsApp</h2>
-                <a href="https://wa.me/+5561983184699">(61) 98318-4699</a>
-                <h2 class="text-lg py-1 font-semibold">Redes Sociais</h2>
-                <div>
-                    <a href="https://instagram.com/asparassessoria"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href="https://github.com/Aspar-Assessoria-e-Tecnologia"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
+                <h1 class="text-4xl py-1 font-bold text-gray-800">Deputado Gustavo Gayer</h1>
+                <h2 class="text-2xl py-1 font-semibold text-black border-b-2 border-gray-800 w-max">57ª Legislatura</h2>
+                <h2 class="text-xl py-1 font-semibold mt-2">Qualquer dúvida ou erro, entre em contato com o suporte:</h2>
+                <a href="https://wa.me/+5561983184699" class="w-max text-lg font-light hover:text-blue-600 hover:font-medium">(61) 98318-4699</a>
             </div>
             <div
                 class="w-full py-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
@@ -31,17 +24,10 @@
     <section class="mt-4" data-aos="fade-down">
         <div class="mt-8 px-8 sm:px-24 md:px-60 lg:px-60 xl:px-60 2xl:px-60 grid grid-cols-1 xl:grid-cols-2">
             <div class="w-full rounded-xl flex flex-col items-left justify-center">
-                <h1 class="text-2xl py-1 font-bold">Fale consco</h1>
-                <h2 class="text-lg py-1 font-semibold">Email</h2>
-                <a href="mailto:atendimento@aspar.com.br">atendimento@aspar.com.br</a>
-                <h2 class="text-lg py-1 font-semibold">WhatsApp</h2>
-                <a href="https://wa.me/+5561983184699">(61) 98318-4699</a>
-                <h2 class="text-lg py-1 font-semibold">Redes Sociais</h2>
-                <div>
-                    <a href="https://instagram.com/asparassessoria"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href="https://github.com/Aspar-Assessoria-e-Tecnologia"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
+                <h1 class="text-4xl py-1 font-bold text-gray-800">Deputado Gustavo Gayer</h1>
+                <h2 class="text-2xl py-1 font-semibold text-black border-b-2 border-gray-800 w-max">57ª Legislatura</h2>
+                <h2 class="text-xl py-1 font-semibold mt-2">Qualquer dúvida ou erro, entre em contato com o suporte:</h2>
+                <a href="https://wa.me/+5561983184699" class="w-max text-lg font-light hover:text-blue-600 hover:font-medium">(61) 98318-4699</a>
             </div>
             <div
                 class="w-full py-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
