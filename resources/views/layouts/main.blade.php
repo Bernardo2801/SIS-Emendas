@@ -46,9 +46,9 @@
                         </a>
                         <ul class="sub-menu ml-5 pl-5 pt-[5px] my-1 border-l border-gray-300 hidden">
                             <li class="my-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
-                                <a href="/indicacoes-gerais"
+                                <a href="/balanco-geral"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
-                                    <span class="text flex-1">Indicações gerais</span>
+                                    <span class="text flex-1">Balanço Geral</span>
                                 </a>
                             </li>
                             <li class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
@@ -66,7 +66,7 @@
                             <li class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/consulta-ficha-processo"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
-                                    <span class="text flex-1">Consulta Ficha Processo</span>
+                                    <span class="text flex-1">Consulta Ficha do Processo</span>
                                 </a>
                             </li>
                         </ul>

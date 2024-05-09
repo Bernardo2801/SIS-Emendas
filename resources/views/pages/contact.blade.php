@@ -82,7 +82,7 @@
             </div>
             <div
                 class="w-full py-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                <img class="rounded-xl" src="/img/aspar-foto3.png" alt="Logo Sis Emendas">
+                <img class="rounded-xl" src="/img/aspar-foto4.png" alt="Logo Sis Emendas">
             </div>
         </div>
     </section>
