@@ -314,6 +314,7 @@
         </div>
     </section>
 
+
     <div class="whats" data-aos="fade-up">
         <a href="https://wa.me/+5561983184699" target="_blank">
             <img src="/img/whatsapp.png" width="70px" alt="Fale conosco pelo WhatsApp"
@@ -349,6 +350,7 @@
         });
     </script>
 
+    <!-- Navbar open/close -->
     <script>
         const navLinks = document.querySelector('.nav-links')
 
@@ -358,6 +360,7 @@
         }
     </script>
 
+    <!-- Fade's -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({

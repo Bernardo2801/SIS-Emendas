@@ -118,67 +118,26 @@
         </a>
     </div>
 
-    <!-- Jquery -->
+    <!-- Fade's -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+
+    <!-- Navbar open/close -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
         integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
         crossorigin="anonymous"></script>
 
+    <!-- Js do Projeto -->
+    <script src="/js/script.js"></script>
 
-        <script>
-            const tabs = document.querySelectorAll('[data-tab-target]');
-            const activeClass = 'border-lime-600';
+    <!-- Ion Icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
-            // Select first tab by default
-            tabs[0].classList.add(activeClass);
-            document.querySelector('#tab1').classList.remove('hidden');
-
-            tabs.forEach(tab => {
-                tab.addEventListener('click', () => {
-                    const targetContent = document.querySelector(tab.dataset.tabTarget);
-                    // console.log(targetContent)
-
-                    document.querySelectorAll('.tab-content').forEach(content => content.classList.add(
-                        'hidden'));
-                    targetContent.classList.remove('hidden');
-
-                    // Remove active class from all tabs
-                    document.querySelectorAll('.border-lime-600').forEach(activeTab => activeTab.classList
-                        .remove(activeClass));
-
-                    // Add active class to clicked tab
-                    console.log(tab)
-                    tab.classList.add(activeClass);
-                });
-            });
-        </script>
-
-        <script>
-            const navLinks = document.querySelector('.nav-links')
-
-            function onToggleMenu(e) {
-                e.name = e.name === 'menu' ? 'close' : 'menu'
-                navLinks.classList.toggle('top-[9%]')
-            }
-        </script>
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                duration: 1000,
-            });
-        </script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
-            integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
-            crossorigin="anonymous"></script>
-
-        <!-- Js do Projeto -->
-        <script src="/js/script.js"></script>
-
-        <!-- Ion Icon -->
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
-    </body>
-    </html>
+</body>
+</html>
