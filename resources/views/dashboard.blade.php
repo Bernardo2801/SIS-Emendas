@@ -54,9 +54,7 @@
             </div>
         </div>
     </section>
-    <footer class="bg-black p-12 mt-auto text-white">
-        <p>Aspar</p>
-    </footer>
+
     @else
         <p>Deputado não encontrado.</p>
     @endif

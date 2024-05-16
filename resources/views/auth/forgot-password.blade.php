@@ -1,11 +1,22 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+
         </x-slot>
 
-        <div class="mb-4 text-sm text-gray-600">
-            {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+        <div class="mb-4 px-4 py-6">
+            <div class="mb-4">
+                <a href="{{ route('login') }}" class="text-[#17693e] font-semibold text-sm border border-transparent rounded-xl text-center inline-flex items-center me-2 uppercase hover:scale-105 transition ease-in-out duration-300"><ion-icon name="arrow-back" class="text-[26px] mr-2"></ion-icon>Voltar</a>
+            </div>
+            <h2 class="font-bold text-2xl text-[#17693e]">Esqueceu sua senha?</h2>
+            <p class="text-[#17693e] py-4">Sem problemas. Apenas entre em contato com o suporte que enviaremos no seu email sua nova senha.</p>
+            <a href="https://wa.me/+556183466330" target="_blank">
+                <button type="button" class="text-white items-center bg-[#209D5C] hover:bg-[#17693e] font-semibold text-xs     border border-transparent rounded-xl px-5 py-2 text-center inline-flex items-center me-2 uppercase hover:scale-105 focus:bg-[#209D5C] active:bg-[#114d2d] focus:outline-none transition ease-in-out duration-300">
+                    <ion-icon name="person-outline" size="small" class="mr-2"></ion-icon>
+                    </svg>
+                    Clique aqui e fale com o suporte
+                </button>
+            </a>
         </div>
 
         @session('status')
@@ -15,20 +26,5 @@
         @endsession
 
         <x-validation-errors class="mb-4" />
-
-        <form method="POST" action="{{ route('password.email') }}">
-            @csrf
-
-            <div class="block">
-                <x-label for="email" value="{{ __('Email') }}" />
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
-            </div>
-
-            <div class="flex items-center justify-end mt-4">
-                <x-button>
-                    {{ __('Email Password Reset Link') }}
-                </x-button>
-            </div>
-        </form>
     </x-authentication-card>
 </x-guest-layout>
