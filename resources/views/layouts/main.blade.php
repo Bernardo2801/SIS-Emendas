@@ -109,15 +109,6 @@
 
     @yield('content')
 
-
-
-    <div class="whats" data-aos="fade-up">
-        <a href="https://wa.me/+556183466330" target="_blank">
-            <img src="/img/whatsapp.png" width="70px" alt="Fale conosco pelo WhatsApp"
-                title="Fale conosco pelo WhatsApp">
-        </a>
-    </div>
-
     <!-- Fade's -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -130,6 +121,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
         integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
         crossorigin="anonymous"></script>
+
+        <!-- Navbar open/close -->
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+
+        function onToggleMenu(e) {
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[9%]')
+        }
+    </script>
 
     <!-- Js do Projeto -->
     <script src="/js/script.js"></script>

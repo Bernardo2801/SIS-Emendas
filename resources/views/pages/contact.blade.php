@@ -73,12 +73,9 @@
                 <a href="mailto:atendimento@aspar.com.br" class="w-max hover:text-blue-600">atendimento@aspar.com.br</a>
                 <h2 class="text-lg py-1 font-semibold">WhatsApp</h2>
                 <a href="https://wa.me/+5561983184699" class="w-max hover:text-blue-600">(61) 98318-4699</a>
-                <h2 class="text-lg py-1 font-semibold">Redes Sociais</h2>
-                <div>
-                    <a href="https://instagram.com/asparassessoria" class="w-max hover:text-blue-600"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#" class="w-max hover:text-blue-600"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href="https://github.com/Aspar-Assessoria-e-Tecnologia" class="w-max hover:text-blue-600"><ion-icon name="logo-github"></ion-icon></a>
-                </div>
+                <h2 class="text-lg py-1 font-semibold">Instagram</h2>
+                <a href="https://instagram.com/asparassessoria" class="w-max hover:text-blue-600">@asparassessoria_</a>
+
             </div>
             <div
                 class="w-full py-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">

@@ -1,13 +1,10 @@
 <x-guest-layout>
     <x-authentication-card>
-        <x-slot name="logo">
-
-        <x-validation-errors class="mb-4" />
 
         @session('status')
-            <div class="mb-4 font-medium text-sm text-green-600">
-                {{ $value }}
-            </div>
+        <div class="mb-4 font-medium text-sm text-green-600">
+            {{ $value }}
+        </div>
         @endsession
 
         <!-- form -->
@@ -29,6 +26,8 @@
                     <x-label for="password" value="{{ __('Password') }}" />
                     <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
                 </div>
+
+                <x-validation-errors class="mb-4" />
 
                 <x-button class="mt-2">
                     {{ __('Log in') }}

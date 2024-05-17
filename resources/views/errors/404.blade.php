@@ -12,10 +12,15 @@
 </head>
 <body class="bg-gray-100 h-screen flex flex-col justify-between">
 
-    <div class="container mx-auto text-center pt-24 px-8 py-8">
+    <div class="container mx-auto text-center px-8 py-8">
         <img class="rounded-xl mx-auto mb-8 w-[500px]" src="/img/aspar-404.png" alt="Logo Sis Emendas">
         <h1 class="text-5xl font-bold text-gray-800 mb-4">404 - Página não encontrada</h1>
-        <p class="text-xl text-gray-600 mb-8">Oops! A página que você está procurando não foi encontrada.</p>
+        <div class="p-4 mb-4 text-md text-red-800 rounded-lg" role="alert">
+            <span class="font-medium">Oops!</span> A página que você está procurando não foi encontrada.
+        </div>
+        <a href="{{ route('welcome') }}">
+            <button class="items-center px-4 py-2 bg-[#209D5C] border border-transparent rounded-xl font-semibold text-xs text-white uppercase tracking-widest hover:bg-[#17693e] hover:scale-105 focus:bg-[#209D5C] active:bg-[#114d2d] focus:outline-none transition ease-in-out duration-300">Voltar</button>
+        </a>
     </div>
 
 </body>
