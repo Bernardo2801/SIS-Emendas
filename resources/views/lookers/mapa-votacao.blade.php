@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'SISEmendas - Votos Deputados')
+@section('title', 'SISEmendas - Mapa de Votação')
 
 @section('content')
 
@@ -11,7 +11,7 @@
             <div class="flex flex-col sm:flex-row justify-center items-center">
                 <div style="background-color: #209D5C"
                 class="w-full h-full sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-full xl:w-full xl:h-full 2xl:w-[1230px] 2xl:h-full p-2 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 flex flex-col sm:flex-row justify-center items-center justify-center items-center">
-                    Votos Deputados Aihara
+                    Mapa Votação Deputados Aihara
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
             <div style="background-color: #209D5C"
             class="flex flex-col sm:flex-row justify-center items-center">
                 <div class="w-full h-full sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-full xl:w-full xl:h-full 2xl:w-[1230px] 2xl:h-full p-2 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 flex flex-col sm:flex-row justify-center items-center justify-center items-center">
-                    Votos Deputados Gayer
+                    Mapa Votação Deputados Aihara
                 </div>
             </div>
         </div>

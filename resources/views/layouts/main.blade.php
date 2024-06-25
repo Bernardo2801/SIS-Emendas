@@ -76,6 +76,12 @@
                             <span class="text flex-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out" data-aos="fade-right">Votação<ion-icon name="chevron-down-outline" class="arrow text-[14px] mt-0.5 duration-300"></ion-icon></span>
                         </a>
                         <ul class="sub-menu ml-5 pl-5 pt-[5px] my-1 border-l border-gray-300 hidden bg-white">
+                            <li class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                                <a href="/mapa-votacoes"
+                                    class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
+                                    <span class="text flex-1">Mapa de Votação</span>
+                                </a>
+                            </li>
                             <li class="my-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/votacoes-deputados"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
@@ -94,8 +100,8 @@
             </div>
             <div class="flex items-center gap-6">
                 <a href="{{ route('profile.show') }}">
-                    <button
-                        class="text-lime-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-medium leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out bg-white"
+                    <button style="color: #209D5C"
+                        class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-medium leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out bg-white"
                         data-aos="fade-right">Meu perfil</button>
                 </a>
 

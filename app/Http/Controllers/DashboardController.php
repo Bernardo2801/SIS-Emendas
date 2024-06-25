@@ -54,6 +54,11 @@ class DashboardController extends Controller
         return view('lookers.ficha-processo', compact('user'));
     }
 
+    public function mapavotos() {
+        $user = Auth::user();
+        return view('lookers.mapa-votacao', compact('user'));
+    }
+
     public function votosdeputado() {
         $user = Auth::user();
         return view('lookers.votos-deputado', compact('user'));
