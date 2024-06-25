@@ -68,4 +68,9 @@ class DashboardController extends Controller
         $user = Auth::user();
         return view('lookers.votos-vereador', compact('user'));
     }
+
+    public function pedidosogu() {
+        $user = Auth::user();
+        return view('lookers.pedidos-ogu', compact('user'));
+    }
 }

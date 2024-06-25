@@ -34,7 +34,8 @@
                     <img class="cursor-pointer hidden sm:block" src="/img/logo-sisemendas.png" alt="Logo Sis Emendas">
                 </a>
             </div>
-            <div class="menu nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+            <div
+                class="menu nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li class="hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
                         data-aos="fade-right">
@@ -42,28 +43,35 @@
                     </li>
                     <li class="rounded-lg">
                         <a href="#">
-                            <span class="text flex-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out" data-aos="fade-right">Emendas<ion-icon name="chevron-down-outline" class="arrow text-[14px] mt-0.5 duration-300"></ion-icon></span>
+                            <span
+                                class="text flex-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                                data-aos="fade-right">Emendas<ion-icon name="chevron-down-outline"
+                                    class="arrow text-[14px] mt-0.5 duration-300"></ion-icon></span>
                         </a>
                         <ul class="sub-menu ml-5 pl-5 pt-[5px] my-1 border-l border-gray-300 hidden">
-                            <li class="my-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                            <li
+                                class="my-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/balanco-geral"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
                                     <span class="text flex-1">Balanço Geral</span>
                                 </a>
                             </li>
-                            <li class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                            <li
+                                class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/consulta-cidade-beneficiario"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
                                     <span class="text flex-1">Consulta por Cidade/Beneficiário</span>
                                 </a>
                             </li>
-                            <li class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                            <li
+                                class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/consulta-ministerio-tematica"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
                                     <span class="text flex-1">Consulta por Ministério/Temática</span>
                                 </a>
                             </li>
-                            <li class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                            <li
+                                class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/consulta-ficha-processo"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
                                     <span class="text flex-1">Consulta Ficha do Processo</span>
@@ -73,25 +81,62 @@
                     </li>
                     <li class="rounded-lg">
                         <a href="#" class="">
-                            <span class="text flex-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out" data-aos="fade-right">Votação<ion-icon name="chevron-down-outline" class="arrow text-[14px] mt-0.5 duration-300"></ion-icon></span>
+                            <span
+                                class="text flex-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                                data-aos="fade-right">Votação<ion-icon name="chevron-down-outline"
+                                    class="arrow text-[14px] mt-0.5 duration-300"></ion-icon></span>
                         </a>
                         <ul class="sub-menu ml-5 pl-5 pt-[5px] my-1 border-l border-gray-300 hidden bg-white">
-                            <li class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                            <li
+                                class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/mapa-votacoes"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
                                     <span class="text flex-1">Mapa de Votação</span>
                                 </a>
                             </li>
-                            <li class="my-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                            <li
+                                class="my-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/votacoes-deputados"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
                                     <span class="text flex-1">Votações Deputados</span>
                                 </a>
                             </li>
-                            <li class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                            <li
+                                class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
                                 <a href="/votacoes-vereadores"
                                     class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
                                     <span class="text flex-1">Votações Vereadores</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="rounded-lg">
+                        <a href="#">
+                            <span
+                                class="text flex-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out"
+                                data-aos="fade-right">Formulários<ion-icon name="chevron-down-outline"
+                                    class="arrow text-[14px] mt-0.5 duration-300"></ion-icon></span>
+                        </a>
+                        <ul class="sub-menu ml-5 pl-5 pt-[5px] my-1 border-l border-gray-300 hidden">
+                            <li
+                                class="my-1 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                                <a href="/pedidos-ogu"
+                                    class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
+                                    <span class="text flex-1">Pedidos de emendas OGU 2025</span>
+                                </a>
+                            </li>
+                            <li
+                                class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                                <a href="/desenvolvendo"
+                                    class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
+                                    <span class="text flex-1">Cadastro de lideranças</span>
+                                </a>
+                            </li>
+                            <li
+                                class="my-1 hover:text-black items-center px-1 pt-1 border-b-2 border-transparent font-normal leading-5 hover:border-lime-600 focus:outline-none focus:text-lime-700 focus:border-lime-600 transition duration-300 ease-in-out">
+                                <a href="/desenvolvendo"
+                                    class="flex self-center gap-2.5 text-sm font-medium text-gray-400 no-underline px-2.5 py-2 rounded-lg hover:text-black duration-300">
+                                    <span class="text flex-1">Incluir novo processo</span>
                                 </a>
                             </li>
                         </ul>
@@ -128,7 +173,7 @@
         integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
         crossorigin="anonymous"></script>
 
-        <!-- Navbar open/close -->
+    <!-- Navbar open/close -->
     <script>
         const navLinks = document.querySelector('.nav-links')
 
@@ -147,4 +192,5 @@
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 </body>
+
 </html>

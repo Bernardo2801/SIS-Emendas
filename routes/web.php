@@ -18,7 +18,10 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified',]
     Route::get('/consulta-ministerio-tematica', [DashboardController::class, 'ministeriotematica'])->name('consulta-ministerio-tematica');
     Route::get('/consulta-ficha-processo', [DashboardController::class, 'fichaprocesso'])->name('consulta-ficha-processo');
 
-    Route::get('/mapa-votacoes', [DashboardController::class, 'mapavotos'])->name('votacoes-deputados');
+    Route::get('/mapa-votacoes', [DashboardController::class, 'mapavotos'])->name('mapa-votos');
     Route::get('/votacoes-deputados', [DashboardController::class, 'votosdeputado'])->name('votacoes-deputados');
     Route::get('/votacoes-vereadores', [DashboardController::class, 'votosvereador'])->name('votacoes-vereadores');
+
+    Route::get('/pedidos-ogu', [DashboardController::class, 'pedidosogu'])->name('pedidos-ogu');
+
 });

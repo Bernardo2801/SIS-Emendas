@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'SISEmendas - Mapa de Votação')
+@section('title', 'SISEmendas - Formulário Pedidos OGU 2025')
 
 @section('content')
 
@@ -11,11 +11,11 @@
                     <div class="flex flex-col sm:flex-row justify-center items-center">
                         <div style="background-color: #209D5C"
                             class="w-full h-full sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-full xl:w-full xl:h-full 2xl:w-[1230px] 2xl:h-full p-2 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 flex flex-col sm:flex-row justify-center items-center justify-center items-center">
-                            <iframe width="600" height="358"
-                                src="https://lookerstudio.google.com/embed/reporting/d1642742-13f1-4062-8a5a-ff5bacbae4da/page/DBreD"
-                                frameborder="0" style="border:0" allowfullscreen
-                                sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
-                                class="w-full h-[700px] sm:w-full sm:h-[670px] md:w-full md:h-[700px] lg:w-full lg:h-[720px] xl:w-full xl:h-[730px] 2xl:w-full 2xl:h-[730px]"></iframe>
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSeaTMAuCeBNNjTsfxT8yDUKoJZ7s0mex-IjwiJKQUUKUGH7Nw/viewform?embedded=true"
+                                width="640" height="1886" frameborder="0" marginheight="0"
+                                class="w-full h-[700px] sm:w-full sm:h-[670px] md:w-full md:h-[700px] lg:w-full lg:h-[720px] xl:w-full xl:h-[730px] 2xl:w-full 2xl:h-[730px]">
+                                marginwidth="0">Carregando…</iframe>
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                     <div style="background-color: #209D5C" class="flex flex-col sm:flex-row justify-center items-center">
                         <div
                             class="w-full h-full sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-full xl:w-full xl:h-full 2xl:w-[1230px] 2xl:h-full p-2 rounded-lg shadow-lg hover:shadow-2xl mb-4 mr-2 flex flex-col sm:flex-row justify-center items-center justify-center items-center">
-                            Mapa Votação Deputados Aihara
+                            Votos Deputados Gayer
                         </div>
                     </div>
                 </div>
