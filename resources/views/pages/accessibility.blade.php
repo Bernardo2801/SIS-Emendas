@@ -82,7 +82,7 @@
 
 
 
-    <div class="whats" data-aos="fade-up">
+    <div class="whats">
         <a href="https://wa.me/+5561983184699" target="_blank">
             <img src="/img/whatsapp.png" width="70px" alt="Fale conosco pelo WhatsApp"
                 title="Fale conosco pelo WhatsApp">
